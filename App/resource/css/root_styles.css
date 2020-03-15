@@ -1,0 +1,257 @@
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    background-color: #edeef0;
+}
+.btn
+{
+    border-radius: 0!important;
+}
+.crm-nav-item:hover
+{
+    color: #ffffff;
+    transition: 200ms;
+
+}
+.crm-nav-item:hover .nav_child
+{
+    display: block;
+}
+.crm-nav-item .nav-link:hover
+{
+    background-color: #4f5761;
+}
+.nav_child
+{
+    display: none;
+}
+.nav_child .nav-item
+{
+    padding: 5px 0 5px 50px;
+}
+.nav_child .nav-item:hover
+{
+    background-color: #3c763d;
+    transition: 200ms;
+}
+.nav-link
+{
+    color: #ffffff;
+}
+.nav-link:hover
+{
+    color: #ffffff;
+}
+.nav-link.active
+{
+    color:#4a76a8;
+}
+.account-avatar
+{
+    margin: 25px auto;
+    border: 2px solid #ffffff;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    background-size: cover;
+    box-shadow: inset 0 0 1rem 6px rgba(0, 0, 0, 0.8);
+    background: url(/login/App/resource/account/avatars/no_logo.jpg);
+}
+.client_table .client_table_item:hover
+{
+    background-color: #4a76a8;
+    color:#ffffff;
+    transition: 200ms;
+}
+.client-avatar
+{
+    margin: 25px auto;
+    border: 1px solid #e7e8ec;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+.widget_card
+{
+    margin: 3px;
+    padding: 10px;
+}
+.widget
+{
+    padding: 0;
+}
+.card_block
+{
+    padding: 10px;
+    background-color: #ffffff;
+    display: block;
+}
+.card_header
+{
+    padding: 8px;
+    background-color: #4a76a8;
+    text-shadow: 0 1px 0 #38678f;
+    box-shadow: inset 0px 1px 2px #568ebd;
+    transition: all 0.2s;
+    color: #ffffff;
+    display: block;
+}
+.card_col
+{
+    margin-bottom: 3px;
+    width: 100%;
+    border: 1px solid #e7e8ec;
+    box-shadow: inset 0px 1px 2px #568ebd;
+    transition: all 0.2s;
+}
+.user_auth
+{
+    margin: 150px auto;
+}
+.user_auth input
+{
+    border-radius: 0;
+    margin: 10px 0;
+}
+.user_auth button
+{
+    border-radius: 0;
+}
+.sidebar_dashboard
+{
+    padding: 0;
+}
+.widget_btn
+{
+    background-color: #4a76a8;
+    color:#ffffff;
+    padding:5px;
+    text-align: center;
+}
+#widget_modal *
+{
+    border-radius: 0!important;
+}
+
+#widget_modal input
+{
+    padding: 0 5px;
+    margin: 5px 0;
+}
+#widget_modal select
+{
+    padding: 0 5px;
+    margin: 5px 0;
+}
+#widget_modal
+{
+    padding: 5px;
+}
+
+#widget_modal_insert input
+{
+    padding: 0 5px;
+    margin: 5px 0;
+}
+#widget_modal_insert select
+{
+    padding: 0 5px;
+    margin: 5px 0;
+}
+#widget_modal_insert
+{
+    padding: 5px;
+}
+.btn-primary
+{
+    background-color: #4a76a8!important;
+    border:none;
+}
+.modal.fade *
+{
+    border-radius: 0;
+}
+.modal-header
+{
+    background-color:#4a76a8;
+    border:none;
+    color: #fff;
+}
+.modal.fade
+{
+    border: none;
+}
+
+.accordeon,
+.accordeon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.accordeon > li > a {
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+}
+.accordeon > li.slide > a,
+.accordeon > li.active > a {
+    background: #4a76a8;
+    color: #FFF;
+}
+.accordeon > li > ul {
+    display: none;
+    width: 100%;
+    background: #4f5761;;
+    color: #ffffff;
+    padding: 10px 0;
+}
+.accordeon > li.active > ul {
+    display: block;
+}
+.accordeon > li > ul > li {
+    padding: 5px 30px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+}
+
+.widget_product
+{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    box-shadow: inset 0 0 1rem 6px rgba(0, 0, 0, 0.08);
+    background: url(/login/App/resource/account/avatars/no_product.png);
+}
+.widget_span
+{
+    font-size: small;
+    color: #868686;
+}
+
+.pag_page
+{
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.pag_page:hover
+{
+    background-color: #e6e6e6;
+}
+
+.pag_page.active
+{
+    color:#fff;
+    background-color: #4a76a8;
+}
